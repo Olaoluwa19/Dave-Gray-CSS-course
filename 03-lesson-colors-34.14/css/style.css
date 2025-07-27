@@ -1,0 +1,21 @@
+body {
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  background-color: papayawhip;
+  /* 1. color name */
+  color: darkblue;
+  /*2. rgba
+  color: rgb(red, green, blue); */
+}
+
+p {
+  /*3. dexidecimal
+  color: #00000
+  we can use a shorthand 'if' the pairs match 
+  color: #000;*/
+  /* we can also use color parlets */
+  /* hsl: is calculated in % 
+  color: hsl(hue, saturation, lightness);*/
+  color: hsla(220, 100%, 50%, 0.604);
+}

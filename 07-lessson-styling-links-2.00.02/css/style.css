@@ -1,0 +1,29 @@
+body {
+  padding: 10%;
+  font-size: 1.5rem;
+  font-family: sans-serif, monospace;
+}
+
+a {
+  color: hsl(207, 44%, 49%);
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover,
+a:focus {
+  color: hsl(207, 44%, 49%, 0.8);
+  /*opacity: 0.8;*/
+}
+
+a:active {
+  color: red;
+}
+
+/* 1. visited,
+2. hover and focus,
+then active 
+
+to get  a different color variant use HSL and tweak the whell on the right*/

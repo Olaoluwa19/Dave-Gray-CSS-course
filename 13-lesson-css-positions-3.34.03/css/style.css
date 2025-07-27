@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.2rem;
+  font-family: cursive;
+  min-height: 200vh;
+}
+
+.outer-container {
+  border: 3px dashed #000;
+  width: 55vw;
+  height: 85vh;
+  margin: 40px auto;
+  position: relative;
+}
+
+.inner-container {
+  border: 2px solid #00f;
+  width: 30vw;
+  height: 50vh;
+  margin: 150px auto;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  color: #fff;
+  padding: 0.5rem;
+}
+
+.absolute {
+  /* this needs an ancestor/ or "relative" value. And it will always pick it's closest relative*/
+  background-color: #00f;
+  position: absolute;
+  top: 0;
+  left: -10000px;
+}
+
+.relative {
+  position: relative;
+  background-color: red;
+  top: 250px;
+  left: 150px;
+}
+
+.fixed {
+  position: fixed;
+  background-color: green;
+  top: 100px;
+}
+
+.sticky {
+  background-color: black;
+  position: sticky;
+  top: 0;
+}
+
+/* Remember How to make things disappear */
+
+section {
+  height: 100vh;
+}
+
+.blue {
+  background-color: #00f;
+}
+
+.red {
+  background-color: #f00;
+}
+
+.green {
+  background-color: green;
+}
+
+header,
+footer {
+  height: 100px;
+  color: white;
+  text-align: center;
+}
+
+header {
+  position: sticky;
+  font-size: 4rem;
+  top: 0;
+}
+
+footer {
+  background: black;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  font-size: 3rem;
+}
+
+a:visited {
+  color: #fff;
+}
+
+.social {
+  background-color: royalblue;
+  color: #fff;
+  position: fixed;
+  top: 30%;
+  left: 0;
+  padding: 1rem;
+  font-size: inherit;
+  z-index: 1;
+}

@@ -1,0 +1,23 @@
+/* Don't use aboslute size such as pixel for font to retain user scalability. */
+/* Use rems for font-size. */
+/* Don't set fontsize in html element to give the user the choice of scalability. */
+/* When you use 'em', it's always in relation to the parent elements */
+/* when you use 'ch', it works base on character  */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  border: 2px dashed red;
+  width: 50%; /* in relation to the parent element i.e the header element. */
+  font-size: 3rem;
+  padding: 0.5em;
+}
+
+p {
+  font-size: 2rem;
+  width: 40ch;
+}

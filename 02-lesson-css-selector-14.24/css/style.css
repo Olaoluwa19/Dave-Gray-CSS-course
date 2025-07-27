@@ -1,0 +1,34 @@
+/* universal selector: majorly use for CSS resets */
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* element Selector */
+body {
+  font-size: 22px;
+}
+
+/* group selector */
+h1,
+h2 {
+  color: blue;
+}
+
+/*paragraph selector */
+p {
+  color: purple;
+}
+
+.highlight {
+  text-transform: uppercase;
+  background-color: gold;
+}
+/* class selector */
+.gray {
+  color: gray;
+}
+
+/* id selector: Avoid at all course. If necessary, use once. */
+#second {
+  font-style: italic;
+}

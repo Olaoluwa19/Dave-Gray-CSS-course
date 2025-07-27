@@ -1,0 +1,98 @@
+/* Begin Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+.offscreen {
+  position: absolute;
+  left: -10000px;
+}
+/* End Reset */
+
+/* Utility Classes */
+.nowrap {
+  white-space: nowrap;
+}
+
+/* End Utility Classes */
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  min-height: 100vh;
+  background-color: aliceblue;
+  background-image: url("../img/diamond-200x164.png"),
+    linear-gradient(to left, yellow, #fff);
+  background-repeat: repeat-y, no-repeat;
+  background-position: right center;
+  background-size: 20%, auto;
+}
+
+.container {
+  background-color: rgb(212, 214, 230);
+  background-image: url("../img/background-img-1.jpg");
+  background-repeat: no-repeat /*repeat no-repeat repeat-x repeat-y */;
+  background-position: bottom /*/bottom  right/ /top left/ center */;
+  background-size: cover /* contain */;
+}
+
+.hero {
+  border-bottom: 1px solid #333;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+
+  background-color: #33333342;
+}
+
+h1 {
+  font-size: 500%;
+  color: #000;
+  text-shadow: 2px 2px 5px #fff;
+  /* background-color: #33333342;
+  padding: 0.5rem;
+  border-radius: 1.5rem; */
+}
+
+.profile-pic-figure {
+  width: 35%;
+}
+
+.profile-pic-figure img {
+  width: 100%;
+  height: auto;
+  min-width: 100px;
+  border: 5px double gray;
+  border-radius: 50%;
+}
+
+.example {
+  margin-top: 1rem;
+  padding-left: 20px;
+  border: 1px solid red;
+}
+
+.example img {
+  width: 25%;
+  height: auto;
+}
+
+.clip {
+  font-weight: bolder;
+  font-size: 15rem;
+  text-align: center;
+  background-image: url("../img/animal-1024x1024.jpg");
+  background-position: center;
+  background-size: 100%;
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent /* hsla(0, 0%, 0%, 0.202) */;
+}
